@@ -1,0 +1,43 @@
+/* Основные стили */
+body {
+  background: #222;
+  font-family: Helvetica, Arial, sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+p {
+    text-align: center;
+}
+
+a {
+  color: #ccc;
+}
+
+/* Стили для фото */
+.day {
+  margin: 0 auto;
+  white-space: nowrap;
+  width: 1000px;
+  height: 555px;
+  overflow: hidden;
+  background: url('eiffel-tower-day-css.jpg') no-repeat fixed;
+  background-position: top;
+  font-size: 0;
+}
+
+.night {
+  width: 50px;
+  height: 555px;
+  display: inline-block;
+  -webkit-transition: all 2s ease-in-out;
+          transition: all 2s ease-in-out;
+  background: url('eiffel-tower-night-css.jpg') no-repeat fixed;
+  background-position: top;
+}
+
+.night:hover {
+  -webkit-transition: all 0.05s linear;
+          transition: all 0.05s linear;
+  opacity: 0;
+}

@@ -1,0 +1,31 @@
+body{
+	background: #222;
+	padding: 0;
+	margin: 0;
+}
+
+.day { 
+	margin: 0 auto;
+	white-space:nowrap;
+	width: 1000px;
+	height: 555px;
+	overflow: hidden;
+	background: url('eiffel-tower-day-css.jpg') no-repeat fixed;
+	background-position: top;
+	font-size: 0;
+}
+
+.night{
+width:50px;
+height:555px;
+display:inline-block;
+
+background: url('eiffel-tower-night-css') no-repeat fixed;
+background-position: top;
+}
+
+.night:hover{
+	transition: all 0.05s;
+	opacity: 0;
+}
+
